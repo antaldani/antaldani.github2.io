@@ -1,0 +1,84 @@
+body{
+    background: rgb(52, 52, 52);
+    color: white;
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding: 0.5em;
+    color:white;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-image: url(kepek/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ul{
+    padding: 0.5em;
+    list-style-type: none;
+    background-color: white;  
+    margin:0;
+    margin-right: 17em;
+}
+
+li{
+    display: inline-block;
+    margin-right: 2em;
+    border-radius: 0.2em;
+}
+
+div{
+    font-size: 1em;
+    border-radius: 0.5em;
+    text-align: justify;
+    margin: 5em;
+    padding:0em;
+    background-color: black;
+}
+
+a{
+    text-decoration: underline;
+    color:aqua;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color:red;
+}
+
+#current{
+    text-decoration: underline black double 0.1em;
+}
+
+#highlight{
+    font-style: bold;
+    font-style: italic;
+}
+
+footer{
+    background-color: black;
+    color:rgb(177, 177, 177);
+    font-size: 0.8em;
+}
+h2{
+    margin: 1em;
+    font-size:3em;
+}
+
+#szoveg{
+    font-size: 1.5em;
+}
+img {
+margin-left:5em;
+}
+
+table, th, td {
+    border:1px solid white;
+    font-size: 1.5em;
+}
