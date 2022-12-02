@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kapcsolat</title> 
     <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,11 +20,25 @@
         </nav>
         <h1>Kapcsolat</h1>   
     </header>
-
+    
     <figure>
-        <img src="kepek/3.jpg" alt="Ferrari" style="width:500px; height:300px">
-        <img src="kepek/4.jpg" alt="Porsche" style="width:500px; height:300px">
-        <img src="kepek/5.jpg" alt="Volkswagen" style="width:500px; height:300px">
+        <section aria-label="newest Photos">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="kepek/3.jpg" alt="Ferrari">
+                    </li>
+                    <li class="slide">
+                        <img src="kepek/4.jpg" alt="Porsche">
+                    </li>
+                    <li class="slide">
+                        <img src="kepek/5.jpg" alt="Volkswagen">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </figure>
 
     <form action="">
@@ -52,7 +67,7 @@
 
     <footer>
         <div>
-            <p>Készítette: Antal Dániel</p>
+            <p>Gipsz Jakab honlapja</p>
             <p>Források:</p>
         </div>
     </footer>
